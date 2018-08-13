@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: zookeeper-config
+data:
+  zooMyId: "1"
+  zooLogDir: /store/logs
+  zooDataLogDir: /store/datalog
+  zooPort: "32181"
+  zooDataDir: /store/data

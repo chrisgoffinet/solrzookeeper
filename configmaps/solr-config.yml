@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: solr-config
+data:
+  solrHome: /store/data
+  solrPort: "32080"
+  zkHost: zk-cs:2181
+  solrHost: solr
+  solrLogsDir: /store/logs
